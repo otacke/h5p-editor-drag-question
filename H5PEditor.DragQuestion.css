@@ -112,7 +112,7 @@
 .dragQuestionLernlinie .h5p-dragnbar-dropzone-button:before {
   content: "\f140";
 }
-.dragQuestion .h5p-dragnbar-audio-button:before {
+.dragQuestionLernlinie .h5p-dragnbar-audio-button:before {
   content: "\f028";
 }
 .h5peditor-dragquestion {
