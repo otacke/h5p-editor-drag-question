@@ -7,13 +7,13 @@ var H5PEditor = H5PEditor || {};
 
  * @param {jQuery} $
  */
-H5PEditor.widgets.dragQuestion = H5PEditor.DragQuestion = (function ($, DragNBar) {
+H5PEditor.widgets.dragQuestionLernlinie = H5PEditor.DragQuestionLERNLINIE = (function ($, DragNBar) {
   /**
    * Must be changed if the semantics for the elements changes.
    * @πvate
    * @type {string}
    */
-  var clipboardKey = 'H5PEditor.DragQuestion';
+  var clipboardKey = 'H5PEditor.DragQuestionLernlinie';
 
   /**
    * Initialize interactive video editor.
@@ -1566,7 +1566,7 @@ H5PEditor.widgets.dragQuestion = H5PEditor.DragQuestion = (function ($, DragNBar
    * @returns {@exp;H5PEditor@call;t}
    */
   C.t = function (key, vars) {
-    return H5PEditor.t('H5PEditor.DragQuestion', key, vars);
+    return H5PEditor.t('H5PEditor.DragQuestionLERNLINIE', key, vars);
   };
 
   return C;

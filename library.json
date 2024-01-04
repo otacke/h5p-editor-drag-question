@@ -1,5 +1,5 @@
 {
-  "title": "Drag Question Editor",
+  "title": "Drag Question Editor (Lernlinie)",
   "majorVersion": 1,
   "minorVersion": 10,
   "patchVersion": 21,
@@ -9,7 +9,7 @@
     "majorVersion": 1,
     "minorVersion": 24
   },
-  "machineName": "H5PEditor.DragQuestion",
+  "machineName": "H5PEditor.DragQuestionLERNLINIE",
   "preloadedJs": [
     {
       "path": "H5PEditor.DragQuestion.js"

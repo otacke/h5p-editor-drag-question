@@ -2,36 +2,36 @@
   position: relative;
 }
 
-.dragQuestion {
+.dragQuestionLernlinie {
   position: relative;
 }
 
-.h5p-dragquestion-editor .field-name-question > .h5p-editor-flex-wrapper {
+.h5p-dragquestionlernlinie-editor .field-name-question > .h5p-editor-flex-wrapper {
    display: none;
  }
 
-.dragQuestion .h5peditor-dragnbar {
+.dragQuestionLernlinie .h5peditor-dragnbar {
   font-size: 1em;
   background: #f5f5f5;
   border: 1px solid #ccc;
   border-bottom: none;
 }
 
-.dragQuestion .h5p-dragnbar-ul {
+.dragQuestionLernlinie .h5p-dragnbar-ul {
   float: none;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.dragQuestion .h5p-dragnbar-ul:after {
+.dragQuestionLernlinie .h5p-dragnbar-ul:after {
   visibility: hidden;
   display: block;
   content: "";
   clear: both;
 }
 
-.dragQuestion .h5p-dragnbar-li {
+.dragQuestionLernlinie .h5p-dragnbar-li {
   float: left;
   margin: 0;
   padding: 0;
@@ -40,39 +40,39 @@
   position: relative;
 }
 
-.dragQuestion .h5p-dragnbar-li:last-child {
+.dragQuestionLernlinie .h5p-dragnbar-li:last-child {
   float:right;
 }
 
 /* Paste button overrides */
-.dragQuestion .h5peditor-dragnbar .h5p-dragnbar-ul .h5p-dragnbar-li .h5p-dragnbar-a.h5p-dragnbar-paste-button {
+.dragQuestionLernlinie .h5peditor-dragnbar .h5p-dragnbar-ul .h5p-dragnbar-li .h5p-dragnbar-a.h5p-dragnbar-paste-button {
   padding: 0.2em 0.95em 0.2em 0.55em;
   border-radius: 0.25em;
   border-width: 1px;
 }
-.dragQuestion .h5p-dragnbar-a.h5p-dragnbar-paste-button:before {
+.dragQuestionLernlinie .h5p-dragnbar-a.h5p-dragnbar-paste-button:before {
   font-size: 1.5em;
 }
 
-.dragQuestion .h5p-dragnbar-li.disabled {
+.dragQuestionLernlinie .h5p-dragnbar-li.disabled {
   opacity: 0.3;
   cursor: auto;
 }
 
-.h5p-dragquestion-editor .h5peditor-dragnbar .h5p-dragnbar-li .h5p-dragnbar-tooltip {
+.h5p-dragquestionlernlinie-editor .h5peditor-dragnbar .h5p-dragnbar-li .h5p-dragnbar-tooltip {
   font-size: 0.9em;
 }
 
-.dragQuestion .h5p-dragnbar-li:hover {
+.dragQuestionLernlinie .h5p-dragnbar-li:hover {
   background: none;
 }
 
-.dragQuestion .h5p-dragnbar-li:before {
+.dragQuestionLernlinie .h5p-dragnbar-li:before {
   top: 44px;
   font-size: 0.88em;
 }
 
-.dragQuestion .h5p-dragnbar-a {
+.dragQuestionLernlinie .h5p-dragnbar-a {
   width: 1em;
   line-height: 1.5em;
   text-align: center;
@@ -86,30 +86,30 @@
   height: 1.5em;
 }
 
-.dragQuestion .h5p-dragnbar-a:hover {
+.dragQuestionLernlinie .h5p-dragnbar-a:hover {
   text-decoration: none;
   border-color: #999;
 }
 
-.dragQuestion .h5p-dragnbar-a:link, .dragQuestion .h5p-dragnbar-a:visited  {
+.dragQuestionLernlinie .h5p-dragnbar-a:link, .dragQuestionLernlinie .h5p-dragnbar-a:visited  {
   color: #555;
 }
-.dragQuestion .h5p-dragnbar-a:before {
+.dragQuestionLernlinie .h5p-dragnbar-a:before {
   font-family: 'H5PFontAwesome4';
   content: "?";
 }
-.dragQuestion .h5p-dragnbar-a:hover {
+.dragQuestionLernlinie .h5p-dragnbar-a:hover {
   text-decoration: none;
 }
-.dragQuestion .h5p-dragnbar-advancedtext-button:before {
+.dragQuestionLernlinie .h5p-dragnbar-advancedtext-button:before {
   font-size: 1.125em;
   font-weight: bold;
   content: "T";
 }
-.dragQuestion .h5p-dragnbar-image-button:before {
+.dragQuestionLernlinie .h5p-dragnbar-image-button:before {
   content: "\f03e";
 }
-.dragQuestion .h5p-dragnbar-dropzone-button:before {
+.dragQuestionLernlinie .h5p-dragnbar-dropzone-button:before {
   content: "\f140";
 }
 
@@ -346,29 +346,29 @@ a.h5peditor-fd-button.h5peditor-remove:hover {
   content: '\f046';
 }
 
-.h5p-dragquestion-editor .h5peditor-panes > .field.dragQuestion {
+.h5p-dragquestionlernlinie-editor .h5peditor-panes > .field.dragQuestionLernlinie {
   background-color: #fff;
   padding: 20px;
 }
 
-.h5p-dragquestion-editor .h5peditor-form {
+.h5p-dragquestionlernlinie-editor .h5peditor-form {
   border-radius: 0;
   padding: 0;
   background: #fff;
 }
 
-.h5p-dragquestion-editor .field.wizard > .h5peditor-panes > .group > .content {
+.h5p-dragquestionlernlinie-editor .field.wizard > .h5peditor-panes > .group > .content {
   border: 0;
 }
 
-.h5p-dragquestion-editor .field.wizard .h5peditor-tab-settings:before {
+.h5p-dragquestionlernlinie-editor .field.wizard .h5peditor-tab-settings:before {
   content: '\e916';
 }
-.h5p-dragquestion-editor .field.wizard .h5peditor-tab-task:before {
+.h5p-dragquestionlernlinie-editor .field.wizard .h5peditor-tab-task:before {
   content: '\e991';
 }
 
-.h5p-dragquestion-editor .common {
+.h5p-dragquestionlernlinie-editor .common {
   background-color: #FAFBFC;
 }
 
@@ -376,10 +376,10 @@ a.h5peditor-fd-button.h5peditor-remove:hover {
   width: 75px;
 }
 
-.h5p-dragquestion-editor .toggle-metadata {
+.h5p-dragquestionlernlinie-editor .toggle-metadata {
   top: 1.2em;
 }
 
-.h5p-dragquestion-editor .h5p-editor-dialog.h5p-metadata-wrapper {
+.h5p-dragquestionlernlinie-editor .h5p-editor-dialog.h5p-metadata-wrapper {
   left: 3%;
 }
