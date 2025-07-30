@@ -383,3 +383,88 @@ a.h5peditor-fd-button.h5peditor-remove:hover {
 .h5p-dragquestion-editor .h5p-editor-dialog.h5p-metadata-wrapper {
   left: 3%;
 }
+
+/** theme **/
+.h5peditor-dragquestion {
+  font-family: var(--h5p-theme-font-name);
+}
+
+.h5peditor-dragquestion .h5p-dq-dz.h5p-dragnbar-element {
+  background-color: rgb(220, 223, 250) !important; /* TODO: Why is the background set in code? Can that be changed? */
+  border-radius: 0.25em;
+  border: none;
+}
+
+.h5peditor-dragquestion .h5p-dq-dz.h5p-dragnbar-element.h5p-has-label {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.h5peditor-dragquestion .h5p-dq-dz:before {
+  content: none;
+}
+
+.h5peditor-dragquestion .h5p-dq-dz .h5p-dq-dz-label {
+  background-color: inherit !important; /* TODO: Why is the background set in code? Can that be changed? */
+  border-radius: 0.25em 0.25em 0 0;
+  box-sizing: border-box;
+  left: 0;
+  margin: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.h5p-dragquestion-editor .h5p-draggable {
+  align-items: center; /* TODO: Enforcing centering (as in view) needs confirmation */
+  background: var(--h5p-theme-alternative-base);
+  border: 0.1em solid var(--h5p-theme-alternative-base);
+  border-radius: var(--h5p-theme-border-radius-medium);
+  box-shadow: rgb(220, 223, 250) 0px 1.58613px 0px 0px !important; /* TODO: Why is the box-shadow set in code? Can that be changed? */
+  color: var(--h5p-theme-text-primary);
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: center;
+  line-height: 1.25em;
+  padding: 0.3em 0.3em;
+  position: absolute;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.h5p-dragquestion-editor .h5p-draggable:hover {
+  background: var(--h5p-theme-alternative-dark);
+  border: 0.1em solid var(--h5p-theme-main-cta-base);
+  color: inherit;
+  outline: inherit;
+}
+
+/* .h5p-has-handle toggle class to add a drag handle to the draggables as in the view */
+.h5p-dragquestion-editor .h5p-draggable.h5p-has-handle {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.h5p-dragquestion-editor .h5p-draggable.h5p-has-handle::before {
+  align-content: center;
+  align-items: center;
+  background-color: color-mix(in srgb, var(--h5p-theme-alternative-dark), transparent 30%);
+  border: inherit;
+  border-radius: var(--h5p-theme-border-radius-small) 0 0 var(--h5p-theme-border-radius-small);
+  box-shadow: inherit;
+  color: var(--h5p-theme-text-third);
+  content: "\e90f";
+  display: inline-block;
+  font-family: 'h5p-theme';
+  font-size: max(1.5vw, 16px);
+  height: 100%;
+  left: -18px;
+  position: absolute;
+}
+
+.h5p-dragquestion-editor .h5p-draggable.h5p-has-handle:hover::before {
+  background-color: var(--h5p-theme-main-cta-base);
+  color: var(--h5p-theme-contrast-cta);
+}
